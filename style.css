@@ -1,0 +1,830 @@
+/*Überschriften*/
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.body{
+    margin:0;
+    padding: 0;
+    font-family: "Raleway",serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    color: #000000;
+    font-weight: normal;
+    
+   
+   
+}
+.background_img{
+    
+    position: relative;
+
+    background-image: url(./pig/hero_bg.jpg);
+    background-size: cover;
+    background-position-x:center ;
+    background-position-y:bottom;
+    height: 100vh;
+    
+   
+
+    .Container_11{
+        position: relative;
+        top: 56px;
+        display: flex;
+        justify-content: space-around;
+
+        .sakuraflower{
+            .sakura_logo{
+                height: 64px;
+                width: 64px;
+                
+            }
+        }
+       
+            .phone:hover{
+                background-color: #000000;
+            }
+            
+           a{
+            color: white;
+            font-family: "Raleway", serif;
+            font-optical-sizing: auto;
+            font-size: 24px;
+            text-decoration: none;
+            }
+
+    }
+
+}
+.menu_top_position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    gap: 112px;
+    a:hover{
+        color: #9F0908   
+    }
+    }
+    .position_menu{
+        display: flex;
+
+    }
+   
+    .phone{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: #9F0908;
+        border-radius: 8px;
+        border: 2px solid white;
+        
+        img{
+            height: 24px;
+            width: 24px;
+            margin-left: 8px;
+           
+
+        }
+        a{
+            padding: 8px;
+            
+        }  
+    }
+
+
+
+
+.headline_1{
+    
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    h1{
+        color: white;
+        font-size: 96px;
+        margin:0;
+        font-weight: bold;  
+    }
+  
+}
+.headline_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    h2{
+        color: #9F0908;
+        font-size: 80px;
+        font-weight: bold;
+
+        margin: 0;
+    }
+}
+.orderMenu{
+    
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+   
+    img{
+        width: 128px;
+        
+
+    }
+    h3{
+        text-align: center;
+        font-size: 56px;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-bottom: 0px;
+        font-family: "Economica", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .noodle {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .broth{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .toppings {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+}
+.ourMenu{
+    position: relative;
+    background-image: url(./pig/section_our_menu_bg.jpg);
+    background-size: cover;
+
+    .space{
+        height: 120px;
+    }
+   
+    .ourMenu_flexbox{
+        display: flex;
+        top: 240px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+        margin: 0;
+        color: #9F0908;
+        font-family: "Raleway",serif;
+        font-optical-sizing: auto;
+        font-size: 80px;
+        font-weight: bold;
+        }
+
+        
+        
+        .tonkotsu_png{ /*Anordnung wichtig*/
+            width: 352px;
+            height: 352px;
+        }
+
+        .spicy_png{
+            width: 352px;
+            height: 352px;
+        }
+        .shio_png{
+            width: 352px;
+            height: 352px;
+        }
+       
+    }
+  
+    .tonkotsu{
+        margin-top: 64px;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        width: 65%;
+
+       
+       
+    }
+    .spicy{
+        margin-top: 56px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+
+        
+       
+    }
+    .shio{
+        margin-top: 56px;
+        width: 65%;
+        display: flex;
+        align-items: center;
+
+
+      
+
+    }
+}
+/*Test*/
+
+
+.table_1{
+    width: 100%; /*Wichtig Einstellung zu Spalten-Anpassung*/
+    margin-left: 80px;
+    
+    
+    h3{
+        font-family: "Economica", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0;
+        font-size: 56px;
+        margin-bottom: 16px;
+
+    }
+   
+    td{
+        width: 75%; /*Wichtige Einstellung zur Spalten-Anpassung*/
+        font-family: "Raleway",serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: 32px;
+        color: #675E54;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    td:nth-child(2){
+        padding-left: 64px;
+    }
+}
+.table_2{
+    margin-right: 80px;
+    width: 40%; /*Wichtige Position*/
+    
+    h3{
+        font-family: "Economica", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0;
+        font-size: 56px;
+        margin-bottom: 16px;
+    }
+   
+   
+    td{
+        font-family: "Raleway",serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: 32px;
+        color: #675E54;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 100%;
+
+    }
+    td:nth-child(2){
+        padding-left: 48px;
+    }
+
+}
+
+.table_3{
+    width: 100%;
+    margin-left: 80px;
+
+    h3{
+        font-family: "Economica", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0;
+        font-size: 56px;
+        margin-bottom: 16px;
+    }
+   
+
+    
+    td{
+        width: 75%;
+        font-family: "Raleway",serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-size: 32px;
+        color: #675E54;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        
+    }
+    td:nth-child(2){
+        padding-left: 64px;
+    }
+
+}
+
+.find_us{
+    position: relative;
+   
+    .findUs_flexbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    h2{
+        color: #9F0908;
+        font-size: 80px;
+        font-weight: bold;
+        margin: 0;
+        margin-top: 120px;
+        margin-bottom: 8px;
+    }
+    
+    .adress{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 64px;
+        align-items: center;
+        margin-top: 0;
+        .standort{
+            margin-right: 8px;
+            width: 29px;
+            height: 29px;
+        }
+        p{
+           margin: 0;
+        }
+        
+
+    }
+    .google{
+        width: 100%;
+        .maps{
+           width: 100%;
+           border: 0;
+           height: 450px;
+            
+         }
+    }
+    
+   
+
+
+}
+.footer{
+    background-color: #0A141E;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 144px;
+   
+
+    .socialmedia{
+       
+        display: flex;
+        margin: 10px;
+        img{
+            height: 40px;
+            width: 40px;
+            margin-left: 16px;
+        }
+    }
+    .sakura{
+        img{
+            height: 44px;
+        }
+    }
+   
+}
+
+
+/*Responsiv Methoden*/
+@media(max-width: 700px){/*erledigt*/
+    
+    .menu_top_position{
+        display: none;
+    }
+    .headline_1{
+        h1{
+            font-size: 52px;
+        }    
+    }
+    .headline_2{
+        h2{
+            font-size: 52px;
+        }
+    }
+    .orderMenu{
+        h3{
+            font-size: 40px;
+        }
+    }
+    .ourMenu{
+        
+        .headline_3{
+            h2{
+                font-size: 52px;
+            }
+             
+        }
+        .tonkotsu{ /*erledigt*/
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .tonkotsu_png{
+                /*Video muss noch angeschaut werden */
+                width: 100%;
+                height: auto;
+            }
+            .table_1{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    font-size: 48px;
+                    margin-top: 16px;
+                }
+             
+                td{
+                    font-size: 32px;
+                }
+            }
+           
+            
+        }
+        .spicy{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .spicy_png{
+                width: 100%;
+                height: auto;
+            }
+            .table_2{
+                width: 100%;
+                margin:0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    margin-top: 16px;
+                    font-size: 48px;
+                }
+                td{
+                    font-size: 32px;
+                    
+                }
+            }
+            
+        }
+        .shio{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .shio_png{
+                width: 100%;
+                height: auto;
+            }
+            .table_3{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    font-size: 48px;
+                    margin-top: 16px;
+                }
+             
+                td{
+                    font-size: 32px;
+                }  
+            }
+            
+        }
+        
+
+    }
+    .findUs_flexbox{
+        .headline_4{
+            h2{
+                margin-top: 120px;
+                font-size: 52px;
+            }
+           
+        }
+    }
+
+
+    
+    
+}
+@media(max-width: 520px){
+    
+    .menu_top_position{
+        display: none;
+    }
+    .headline_1{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 0;
+        }    
+    }
+    .headline_2{
+        h2{
+            font-size: 40px;
+        }
+    }
+    .orderMenu{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        h3{
+            font-size: 40px;
+        }
+    }
+    .ourMenu{
+        .headline_3{
+            h2{
+                font-size: 40px;
+            }
+        }
+        .tonkotsu{ /*erledigt*/
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .tonkotsu_png{
+                /*Video muss noch angeschaut werden */
+                width: 100%;
+                height: auto;
+            }
+            .table_1{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    font-size: 40px;
+                    margin-top: 16px;
+                }
+             
+                td{
+                    font-size: 24px;
+                }
+            }
+           
+            
+        }
+        .spicy{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .spicy_png{
+                width: 100%;
+                height: auto;
+            }
+            .table_2{
+                width: 100%;
+                margin:0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    margin-top: 16px;
+                    font-size: 40px;
+                }
+                td{
+                    font-size: 24px;
+                    
+                }
+            }
+            
+        }
+        .shio{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .shio_png{
+                width: 100%;
+                height: auto;
+            }
+            .table_3{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    font-size: 40px;
+                    margin-top: 16px;
+                }
+             
+                td{
+                    font-size: 24px;
+                }  
+            }
+            
+        }
+     
+       
+
+
+    }
+    .findUs_flexbox{    
+        .headline_4{
+            h2{
+                font-size: 40px;
+            }
+            
+        }
+        .adress{
+            
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 44px;
+        bottom: 0;
+    }
+}
+@media(max-width: 320px){
+    .menu_top_position{
+        display: none;
+    }
+    .headline_1{
+        h1{
+            font-size: 32px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 0;
+        }    
+    }
+    .headline_2{
+        h2{
+            font-size: 32px;
+        }
+    }
+    .orderMenu{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        h3{
+            font-size: 32px;
+        }
+    }
+    .ourMenu{
+        .headline_3{
+            h2{
+                font-size: 32px;
+            }
+        }
+        .tonkotsu{ /*erledigt*/
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .tonkotsu_png{
+                /*Video muss noch angeschaut werden */
+                width: 100%;
+                height: auto;
+            }
+            .table_1{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    font-size: 32px;
+                    margin-top: 16px;
+                }
+             
+                td{
+                    font-size: 16px;
+                }
+            }
+           
+            
+        }
+        .spicy{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .spicy_png{
+                width: 100%;
+                height: auto;
+            }
+            .table_2{
+                width: 100%;
+                margin:0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    margin-top: 16px;
+                    font-size: 32px;
+                }
+                td{
+                    font-size: 16px;
+                    
+                }
+            }
+            
+        }
+        .shio{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .shio_png{
+                width: 100%;
+                height: auto;
+            }
+            .table_3{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    font-size: 32px;
+                    margin-top: 16px;
+                }
+             
+                td{
+                    font-size: 16px;
+                }  
+            }   
+        }
+        .space{
+            height: 60px;
+        }
+    }
+    .find_us{
+        .headline_4{
+            h2{
+                margin-top: 60px;
+                font-size: 32px;
+            }
+        }
+        .adress{
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    .footer{
+        .sakura{
+            display: none;
+        }
+        .socialmedia{
+            
+            gap: 12px;
+
+            img{
+                margin: 0;
+            }
+        }
+    }
+
+    
+}
+
+
+
+
+
+
+
